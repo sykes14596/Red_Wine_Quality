@@ -21,3 +21,10 @@ This project was created using a Jupyter Notebook with the following package ver
 * Scikit-Learn: 0.23.1
 * Matplotlib: 3.2.2
 
+## Exploratory Data Analysis
+
+Each of the 11 independent variables within the dataset was analysed against the target variable. I analysed the correlations amongst the indenpendant variables. Below are some of the highlights from the EDA.
+
+![alt text](https://github.com/sykes14596/Red_Wine_Quality/blob/master/Images/Correlation_Matrix.png "Correlation Matrix")
+![alt text](https://github.com/sykes14596/Red_Wine_Quality/blob/master/Images/target_variable_countplot.png "Target Variable Countplot")
+![alt text](https://github.com/sykes14596/Red_Wine_Quality/blob/master/Images/Correlation_to_target_variable.png "Correlation to Target Variable")
