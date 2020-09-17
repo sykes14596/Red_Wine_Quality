@@ -28,3 +28,18 @@ Each of the 11 independent variables within the dataset was analysed against the
 ![alt text](https://github.com/sykes14596/Red_Wine_Quality/blob/master/Images/Correlation_Matrix.png "Correlation Matrix")
 ![alt text](https://github.com/sykes14596/Red_Wine_Quality/blob/master/Images/target_variable_countplot.png "Target Variable Countplot")
 ![alt text](https://github.com/sykes14596/Red_Wine_Quality/blob/master/Images/Correlation_to_target_variable.png "Correlation to Target Variable")
+
+## Data Preprocessing and Model Building
+
+Some variables were removed from the dataset in order to minimise the risk of multicolinearity. Due to the extremely unbalanced dataset, two different problems were solved. First, models were created to determine whether a wine was "good", which equated to having a rating of at least 6, or "bad", equating to having a rating of at most 5. This converted the problem into a binary classification problem. 
+
+Second, the SMOTE technique was used to created synthetic instances of each of the minority classes in order to achieve a perferctly balanced dataset. This lead to the problem becoming a multiclass classification problem. 
+
+In each problem type, I created 5 different models to practice producing the necessary code required to implement them. The models implemented were:
+
+* Logistic Regression,
+* Decision Tree,
+* Random Forest,
+* Support Vector Machines,
+* XGBoost.
+
