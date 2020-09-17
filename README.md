@@ -43,3 +43,22 @@ In each problem type, I created 5 different models to practice producing the nec
 * Support Vector Machines,
 * XGBoost.
 
+## Model Performance
+
+In both problems, the random forest classifier managed to achieve the highest accuracy. Full results are shown below.
+
+### Binary Classification
+
+* Logistic Regression: 75%
+* Decision Tree: 74%
+* Random Forest: 80%
+* Support Vector Machines: 77%
+* XGBoost: 78%
+
+### Multi-class Classification
+
+* Logistic Regression: 56%
+* Decision Tree: 77%
+* Random Forest: 85%
+* Support Vector Machines: 82%
+* XGBoost: 75%
